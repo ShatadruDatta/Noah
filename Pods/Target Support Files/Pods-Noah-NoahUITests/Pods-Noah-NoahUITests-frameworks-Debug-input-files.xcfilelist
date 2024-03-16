@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Noah-NoahUITests/Pods-Noah-NoahUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

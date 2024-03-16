@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.9.0)
+  - SlideMenuControllerSwift (4.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - SlideMenuControllerSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SlideMenuControllerSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 02b772c9910e8eba1a079227c32fbd9e46c90a24
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 1bb54f747867096c478a7dd3bf311fb0bf780c8f
+
+COCOAPODS: 1.15.2
