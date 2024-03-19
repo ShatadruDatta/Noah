@@ -12,12 +12,46 @@ class DashboardController: BaseViewController {
     @IBOutlet weak var imgSearch: UIImageView!
     @IBOutlet weak var lblContext: UILabel!
     @IBOutlet weak var collCategory: UICollectionView!
+    @IBOutlet weak var tblCategory: UITableView!
     var selectedIndex = 0
     var arrCategory = ["All", "Anxiety", "Stress", "Relationships"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collCategory.reloadData()
         // Do any additional setup after loading the view.
+    }
+}
+
+// MARK: TableViewDelegate, TableViewDataSource
+extension DashboardController: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 294.0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellFeature = self.tblCategory.dequeueReusableCell(withIdentifier: "FeatureTableViewCell", for: indexPath) as! FeatureTableViewCell
+        cellFeature.datasource = "" as AnyObject
+        return cellFeature
+    }
+}
+
+// MARK: FeatureTableViewCell
+class FeatureTableViewCell: BaseTableViewCell {
+    @IBOutlet weak var collFeature: UICollectionView!
+    override var datasource: AnyObject? {
+        didSet {
+            if datasource != nil {
+                collFeature.reloadData()
+            }
+        }
     }
 }
 
@@ -51,7 +85,7 @@ extension DashboardController: UICollectionViewDelegate, UICollectionViewDataSou
 }
 
 
-//MARK: cATEGORIESCollectionCell
+//MARK: CategoriesCollectionCell
 class CategoriesCollCell: BaseCollectionViewCell {
     @IBOutlet weak var parentCollView: UIView!
     @IBOutlet weak var lblCategory: UILabel!

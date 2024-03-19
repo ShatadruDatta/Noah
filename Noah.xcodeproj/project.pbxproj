@@ -57,12 +57,12 @@
 		5F4239DB2BA62CE800672087 /* MainContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4239D42BA62CE800672087 /* MainContainerController.swift */; };
 		5F4239DC2BA62CE800672087 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4239D52BA62CE800672087 /* SlideMenuViewController.swift */; };
 		5F4239DD2BA62CE800672087 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4239D62BA62CE800672087 /* TabBarController.swift */; };
-		5F9278632BA63D92008CF462 /* SF-Pro-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92785D2BA63D92008CF462 /* SF-Pro-Display-Bold.ttf */; };
-		5F9278642BA63D92008CF462 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92785E2BA63D92008CF462 /* SF-Pro.ttf */; };
-		5F9278652BA63D92008CF462 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92785F2BA63D92008CF462 /* SFProText-Bold.ttf */; };
-		5F9278662BA63D92008CF462 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F9278602BA63D92008CF462 /* SFProText-Regular.ttf */; };
-		5F9278672BA63D92008CF462 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F9278612BA63D92008CF462 /* SFProText-Semibold.ttf */; };
 		5F92786A2BA63E9A008CF462 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9278692BA63E9A008CF462 /* DashboardController.swift */; };
+		5F9278712BA8E4CE008CF462 /* SF-Pro-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786B2BA8E4CE008CF462 /* SF-Pro-Display-Bold.ttf */; };
+		5F9278722BA8E4CE008CF462 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786C2BA8E4CE008CF462 /* SF-Pro.ttf */; };
+		5F9278732BA8E4CE008CF462 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786D2BA8E4CE008CF462 /* SFProText-Bold.ttf */; };
+		5F9278742BA8E4CE008CF462 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786E2BA8E4CE008CF462 /* SFProText-Regular.ttf */; };
+		5F9278752BA8E4CE008CF462 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786F2BA8E4CE008CF462 /* SFProText-Semibold.ttf */; };
 		7C6B783CCB5E87EFBE6A8D9F /* Pods_NoahTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5C9F9DB37916775C28FF18 /* Pods_NoahTests.framework */; };
 		B92A3408D72F69C150AA84E2 /* Pods_Noah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F601309A71DB9A02F9602 /* Pods_Noah.framework */; };
 		EBB21E19C963701C99054F49 /* Pods_Noah_NoahUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B9A5867D4667E6946E2425 /* Pods_Noah_NoahUITests.framework */; };
@@ -145,12 +145,12 @@
 		5F4239D42BA62CE800672087 /* MainContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContainerController.swift; sourceTree = "<group>"; };
 		5F4239D52BA62CE800672087 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
 		5F4239D62BA62CE800672087 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		5F92785D2BA63D92008CF462 /* SF-Pro-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.ttf"; sourceTree = "<group>"; };
-		5F92785E2BA63D92008CF462 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
-		5F92785F2BA63D92008CF462 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
-		5F9278602BA63D92008CF462 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
-		5F9278612BA63D92008CF462 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		5F9278692BA63E9A008CF462 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		5F92786B2BA8E4CE008CF462 /* SF-Pro-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.ttf"; sourceTree = "<group>"; };
+		5F92786C2BA8E4CE008CF462 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		5F92786D2BA8E4CE008CF462 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		5F92786E2BA8E4CE008CF462 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		5F92786F2BA8E4CE008CF462 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		6167D53E7AD3FD4C2C1A2A9B /* Pods-Noah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noah.release.xcconfig"; path = "Target Support Files/Pods-Noah/Pods-Noah.release.xcconfig"; sourceTree = "<group>"; };
 		802F894810DFA7710D2883B1 /* Pods-Noah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noah.debug.xcconfig"; path = "Target Support Files/Pods-Noah/Pods-Noah.debug.xcconfig"; sourceTree = "<group>"; };
 		98C5890770DF7554F7473C12 /* Pods-Noah-NoahUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noah-NoahUITests.debug.xcconfig"; path = "Target Support Files/Pods-Noah-NoahUITests/Pods-Noah-NoahUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -334,7 +334,7 @@
 		5F4239952BA62C9300672087 /* CustomFonts */ = {
 			isa = PBXGroup;
 			children = (
-				5F9278622BA63D92008CF462 /* SFPro */,
+				5F9278702BA8E4CE008CF462 /* SFPro */,
 				5F4239942BA62C9300672087 /* Poppins */,
 			);
 			path = CustomFonts;
@@ -467,24 +467,24 @@
 			path = MainContainerController;
 			sourceTree = "<group>";
 		};
-		5F9278622BA63D92008CF462 /* SFPro */ = {
-			isa = PBXGroup;
-			children = (
-				5F92785D2BA63D92008CF462 /* SF-Pro-Display-Bold.ttf */,
-				5F92785E2BA63D92008CF462 /* SF-Pro.ttf */,
-				5F92785F2BA63D92008CF462 /* SFProText-Bold.ttf */,
-				5F9278602BA63D92008CF462 /* SFProText-Regular.ttf */,
-				5F9278612BA63D92008CF462 /* SFProText-Semibold.ttf */,
-			);
-			path = SFPro;
-			sourceTree = "<group>";
-		};
 		5F9278682BA63E75008CF462 /* DashboardController */ = {
 			isa = PBXGroup;
 			children = (
 				5F9278692BA63E9A008CF462 /* DashboardController.swift */,
 			);
 			path = DashboardController;
+			sourceTree = "<group>";
+		};
+		5F9278702BA8E4CE008CF462 /* SFPro */ = {
+			isa = PBXGroup;
+			children = (
+				5F92786B2BA8E4CE008CF462 /* SF-Pro-Display-Bold.ttf */,
+				5F92786C2BA8E4CE008CF462 /* SF-Pro.ttf */,
+				5F92786D2BA8E4CE008CF462 /* SFProText-Bold.ttf */,
+				5F92786E2BA8E4CE008CF462 /* SFProText-Regular.ttf */,
+				5F92786F2BA8E4CE008CF462 /* SFProText-Semibold.ttf */,
+			);
+			path = SFPro;
 			sourceTree = "<group>";
 		};
 		6CBC242DCBB614A119DD01C7 /* Pods */ = {
@@ -611,11 +611,11 @@
 			files = (
 				5F4239B92BA62C9300672087 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				5F4239BC2BA62C9300672087 /* Poppins-LightItalic.ttf in Resources */,
-				5F9278672BA63D92008CF462 /* SFProText-Semibold.ttf in Resources */,
-				5F9278652BA63D92008CF462 /* SFProText-Bold.ttf in Resources */,
+				5F9278752BA8E4CE008CF462 /* SFProText-Semibold.ttf in Resources */,
+				5F9278732BA8E4CE008CF462 /* SFProText-Bold.ttf in Resources */,
 				5F4239492BA624A300672087 /* Assets.xcassets in Resources */,
 				5F4239C32BA62C9300672087 /* Poppins-ThinItalic.ttf in Resources */,
-				5F9278662BA63D92008CF462 /* SFProText-Regular.ttf in Resources */,
+				5F9278742BA8E4CE008CF462 /* SFProText-Regular.ttf in Resources */,
 				5F4239BF2BA62C9300672087 /* Poppins-Regular.ttf in Resources */,
 				5F4239B62BA62C9300672087 /* Poppins-ExtraBold.ttf in Resources */,
 				5F4239C12BA62C9300672087 /* Poppins-SemiBoldItalic.ttf in Resources */,
@@ -625,7 +625,7 @@
 				5F4239B42BA62C9300672087 /* Poppins-Bold.ttf in Resources */,
 				5F4239B72BA62C9300672087 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				5F4239B12BA62C9300672087 /* OFL.txt in Resources */,
-				5F9278642BA63D92008CF462 /* SF-Pro.ttf in Resources */,
+				5F9278722BA8E4CE008CF462 /* SF-Pro.ttf in Resources */,
 				5F4239BB2BA62C9300672087 /* Poppins-Light.ttf in Resources */,
 				5F4239BA2BA62C9300672087 /* Poppins-Italic.ttf in Resources */,
 				5F4239BE2BA62C9300672087 /* Poppins-MediumItalic.ttf in Resources */,
@@ -633,7 +633,7 @@
 				5F4239472BA624A200672087 /* Base in Resources */,
 				5F4239B82BA62C9300672087 /* Poppins-ExtraLight.ttf in Resources */,
 				5F4239B32BA62C9300672087 /* Poppins-BlackItalic.ttf in Resources */,
-				5F9278632BA63D92008CF462 /* SF-Pro-Display-Bold.ttf in Resources */,
+				5F9278712BA8E4CE008CF462 /* SF-Pro-Display-Bold.ttf in Resources */,
 				5F4239B22BA62C9300672087 /* Poppins-Black.ttf in Resources */,
 				5F4239B52BA62C9300672087 /* Poppins-BoldItalic.ttf in Resources */,
 			);
