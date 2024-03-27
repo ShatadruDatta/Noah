@@ -100,7 +100,8 @@ class FeatureTableViewCell: BaseTableViewCell, UICollectionViewDelegate, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-       // self.collFeature.reloadData()
+        let catDetVC = mainStoryboard.instantiateViewController(withIdentifier: "CategoryDetailsController") as! CategoryDetailsController
+        NavigationHelper.helper.contentNavController!.pushViewController(catDetVC, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

@@ -63,6 +63,7 @@
 		5F9278732BA8E4CE008CF462 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786D2BA8E4CE008CF462 /* SFProText-Bold.ttf */; };
 		5F9278742BA8E4CE008CF462 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786E2BA8E4CE008CF462 /* SFProText-Regular.ttf */; };
 		5F9278752BA8E4CE008CF462 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F92786F2BA8E4CE008CF462 /* SFProText-Semibold.ttf */; };
+		5FB7466E2BB487F80035F6A0 /* CategoryDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7466D2BB487F80035F6A0 /* CategoryDetailsController.swift */; };
 		7C6B783CCB5E87EFBE6A8D9F /* Pods_NoahTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5C9F9DB37916775C28FF18 /* Pods_NoahTests.framework */; };
 		B92A3408D72F69C150AA84E2 /* Pods_Noah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F601309A71DB9A02F9602 /* Pods_Noah.framework */; };
 		EBB21E19C963701C99054F49 /* Pods_Noah_NoahUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B9A5867D4667E6946E2425 /* Pods_Noah_NoahUITests.framework */; };
@@ -151,6 +152,7 @@
 		5F92786D2BA8E4CE008CF462 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
 		5F92786E2BA8E4CE008CF462 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		5F92786F2BA8E4CE008CF462 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		5FB7466D2BB487F80035F6A0 /* CategoryDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsController.swift; sourceTree = "<group>"; };
 		6167D53E7AD3FD4C2C1A2A9B /* Pods-Noah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noah.release.xcconfig"; path = "Target Support Files/Pods-Noah/Pods-Noah.release.xcconfig"; sourceTree = "<group>"; };
 		802F894810DFA7710D2883B1 /* Pods-Noah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noah.debug.xcconfig"; path = "Target Support Files/Pods-Noah/Pods-Noah.debug.xcconfig"; sourceTree = "<group>"; };
 		98C5890770DF7554F7473C12 /* Pods-Noah-NoahUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noah-NoahUITests.debug.xcconfig"; path = "Target Support Files/Pods-Noah-NoahUITests/Pods-Noah-NoahUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -432,6 +434,7 @@
 		5F4239CE2BA62CB300672087 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5FB7466C2BB487DE0035F6A0 /* CategoryDetailsController */,
 				5F9278682BA63E75008CF462 /* DashboardController */,
 				5F4239D22BA62CE800672087 /* LaunchController */,
 				5F4239D72BA62CE800672087 /* MainContainerController */,
@@ -485,6 +488,14 @@
 				5F92786F2BA8E4CE008CF462 /* SFProText-Semibold.ttf */,
 			);
 			path = SFPro;
+			sourceTree = "<group>";
+		};
+		5FB7466C2BB487DE0035F6A0 /* CategoryDetailsController */ = {
+			isa = PBXGroup;
+			children = (
+				5FB7466D2BB487F80035F6A0 /* CategoryDetailsController.swift */,
+			);
+			path = CategoryDetailsController;
 			sourceTree = "<group>";
 		};
 		6CBC242DCBB614A119DD01C7 /* Pods */ = {
@@ -770,6 +781,7 @@
 				5F92786A2BA63E9A008CF462 /* DashboardController.swift in Sources */,
 				5F4239722BA62C7900672087 /* AppDelegate.swift in Sources */,
 				5F4239CB2BA62C9300672087 /* AFWrapper.swift in Sources */,
+				5FB7466E2BB487F80035F6A0 /* CategoryDetailsController.swift in Sources */,
 				5F4239A92BA62C9300672087 /* BaseCollectionViewCell.swift in Sources */,
 				5F4239DA2BA62CE800672087 /* HeaderViewController.swift in Sources */,
 				5F4239C82BA62C9300672087 /* CustomTextField.swift in Sources */,
